@@ -1,12 +1,20 @@
+# How to donwload test
+```
+# download test
+acc new abc042
+
+# add test after downloading test
+acc add
+```
+
 ## How to test and submit
 
-テスト実行コマンド（ -c [コマンド] / -d [テスト入出力データのディレクトリ] ）
+use to run test（ -c [コマンド] / -d [テスト入出力データのディレクトリ] ）
 ```
 oj t -c "ruby main.rb" -d "tests/"
 ```
 
 提出 ｜ s はsubmitの省略名。内部で `oj s` を呼び出してます。
-
 ```
 acc s main.rb
 ```
