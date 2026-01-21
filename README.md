@@ -1,3 +1,36 @@
+# how to setup
+
+## install atcoder-cli
+`acc` コマンドのインストールを行う。
+```sh
+npm install -g atcoder-cli
+```
+
+## install online-judge-tools
+
+`acc` コマンドを使用するには、`online-judge-tools` が必要。
+
+### インストール方法
+```sh
+pip3 install --user online-judge-tools
+```
+
+`pip3 install --user` でインストールしたコマンドは `~/.local/bin` に配置される。
+このディレクトリを PATH に追加する必要があり。
+
+`~/.zshrc` に以下を追記する。
+```sh
+export PATH="$HOME/.local/bin:$PATH"
+source ~/.zshrc
+```
+
+### check installed
+以下のコマンドで `oj` コマンドが使用可能か確認。
+```sh
+which oj
+oj --version
+```
+
 # How to donwload test
 ```
 # download test
